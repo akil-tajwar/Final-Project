@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* ----------Nav Bar---------- */
+.nav-back{
+    background-color: rgb(29, 29, 29);
+    position: fixed;
+    width: 100%;
+    z-index: +2;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.nav-back a{
+    color: white;
+    padding-left: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.nav-back a:hover{
+    color: aqua;
+}
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    padding: 20px 20px 36px;
+}
+#cart{
+    color: aqua;
+    padding-left: 8rem;
+}
+.cart-box{
+    margin-top: 80px;
+    width: 90px;
+}
+.nav-elements{
+    padding-top: 30px;
+}
+
+
+
+
+/* ----------Background & Download---------- */
+.back{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgb(29, 29, 29, 0.7) 30%, rgb(29, 29, 29, 0.7) 70%), url("/media/background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.back-content{
+    max-width: 68%;
+    margin: auto;
+}
+.back-content h1{
+    padding: 300px 0 30px 0;
+    font-size: 60px;
+    color: aqua;
+}
+.top-line{
+    color: white;
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+.learn-more a{
+    padding-bottom: 30px;
+    text-decoration: none;
+    color: aqua;
+}
+.learn-more a:hover{
+    color: aqua;
+}
+.app-download{
+    padding-top: 50px;
+    color: white;
+    font-size: 20px;
+}
+.buttons button{
+    background-color: aqua;
+    padding: 10px 20px;
+    margin-bottom: 185px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+/* ----------Special Offers---------- */
+.combo{
+    background-color: antiquewhite;
+    padding-bottom: 150px;
+}
+.combo h1{
+    text-align: center;
+    font-weight: bold;
+    padding: 90px 0 40px;
+    
+}
+.paad{
+    padding-top: 290px;
+}
+.discount-sliding{
+    align-items: center;
+    background-color: rgb(29, 29, 29);
+    width: 65%;
+    height: 498px;
+    margin: auto;
+}
+.discount-slide{
+    padding: 55px;
+}
+.slide-components{
+    display: flex;
+}
+.slide-components button{
+    background-color: aqua;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+.slide-texts{
+    padding: 85px 55px 55px;
+    font-size: large;
+    line-height: 25px;
+}
+.slide-texts h2{
+    color: aqua;
+}
+.slide-texts p{
+    color: white;
+}
+.slide-texts h3{
+    font-weight: bold;
+    color: rgb(206, 34, 11);
+}
+.cross-text{
+    text-decoration: line-through;
+    color: rgba(31, 31, 31, 0.7);
+}
+.paad{
+    margin-top: 0px;
+}
+
+
+
+
+/* ----------About Us---------- */
+.about-us{
+    text-align: center;
+    padding: 0% 15% 150px;
+    background-color: antiquewhite;
+}
+.about-us h1{
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+.about-us p{
+    text-align: justify;
+}
+.about{
+    width: 65%;
+    margin: auto;
+}
+
+
+
+/* ----------Bulletpoints---------- */
+.cf2{
+    text-align: center;
+    padding: 6% 15%;
+    margin: auto;
+    background-color: rgb(29, 29, 29);
+}
+.all-box{
+    padding-left: 8rem;
+}
+.bulletbox{
+    background-color: aqua;
+    height: 250px;
+    width: 250px;
+    box-shadow: rgba(0, 0, 0, 0.29) 0px 0px 10px 10px;
+}
+.cf2 h3{
+    font-size: 27px;
+    color: rgb(29, 29, 29);
+    font-weight: bolder;
+}
+.cf2 p{
+    font-size: small;
+    color: rgb(29, 29, 29);
+    padding: 10px 20px 0;
+}
+.icon{
+    color: rgb(29, 29, 29);
+    padding: 25px 0 10px;
+}
+
+
+
+/* ----------New Items---------- */
+.service{
+    text-align: center;
+    background-color: antiquewhite;
+}
+.service h1{
+    padding: 130px 0 40px 0;
+    font-weight: bolder;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: left;
+    background-color: rgb(29, 29, 29);
+    align-items: center;
+    margin: auto;
+}
+.card-elements{
+    background-color: rgb(29, 29, 29);
+    border: 2px solid rgb(29, 29, 29);
+}
+.card-body{
+    margin-left: 7px;
+}
+.card-body h4{
+    font-weight: bold;
+    color: aqua;
+}
+.card-body h5{
+    font-weight: bold;
+}
+.taka{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.card-body p{
+    padding-top: 20px;
+    color: white;
+}
+.card-button button{
+    text-align: center;
+    height: 33px;
+    width: 118px;
+    background-color: aqua;
+    font-weight: bold;
+}
+.mar{
+    margin-left: 239px;
+}
+.gap{
+    padding-bottom: 150px;
+}
+.brdr{
+    border: 3px rgb(29, 29, 29) solid;
+}
+
+
+
+
+/* ----------Footer---------- */
+.foot-back{
+    background-color: rgb(29, 29, 29);
+    color: white;
+    line-height: 40px;
+    padding: 40px 30px 40px 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.foot-back h2{
+    color: aqua;
+}
+.foot-main{
+    width: 70%;
+    margin: auto;
+}
+.contact i{
+    padding-right: 10px;
+    color: aqua;
+}
+.message input{
+    margin-right: 20.6px;
+    padding-left: 5px;
+}
+.message textarea{
+    margin-top: 29px;
+    padding-left: 5px;
+}
+.send_button{
+    background-color: aqua;
+    font-weight: bold;
+    font-size: larger;
+    padding: 0 20px;
+}
+.icons i{
+    color: white;
+    padding-right: 15px;
+}
+.icons{
+    padding-left: 40px;
+}
+.icons a :hover{
+    color: aqua;
+}
+.social h2{
+    color: aqua;
+    padding-left: 40px;
+}
+.social p{
+    padding-left: 40px;
+    line-height: 20px;
+    text-align: justify;
+}
+.copyright{
+    background-color: rgb(29, 29, 29);
+    border-top: 0.5px solid white;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 3px;
+}
+
+
+
+/* ----------Contact Page---------- */
+.contact-page{
+    background-color: antiquewhite;
+}
+.contact-back{
+    background-color: rgb(29, 29, 29);
+    color: white;
+    margin-right: 20px;
+    padding: 30px 0px;
+}
+.gaap{
+    padding-bottom: 40px;
+}
