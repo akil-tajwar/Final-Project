@@ -279,6 +279,9 @@
     padding-right: 10px;
     color: aqua;
 }
+.contact{
+    line-height: 40px;
+}
 .message input{
     margin-right: 20.6px;
     padding-left: 5px;
@@ -327,12 +330,75 @@
 .contact-page{
     background-color: antiquewhite;
 }
+.contact-page h1{
+    text-align: center;
+    font-weight: bolder;
+}
+.contact-options{
+    margin-left: 20rem;
+    width: 100%;
+    padding: 30px 0 30px 0;
+}
 .contact-back{
     background-color: rgb(29, 29, 29);
     color: white;
-    margin-right: 20px;
-    padding: 30px 0px;
+    padding-right: 200px;
+    margin-left: 14rem;
+}
+.contact{
+    padding-left: 20px;
+}
+.contact h2{
+    color: aqua;
+    padding-top: 20px;
+}
+.social-back h2{
+    padding-top: 20px;
+}
+.contact-name{
+    margin-bottom: 2px;
+}
+.message-back{
+    background-color: rgb(29, 29, 29);
+    margin-left: 10px;
+}
+.message{
+    padding-right: 450px;
+    padding-top: 30px;
+    padding-left: 5px;
+}
+.message button{
+    margin-top: 5px;
+}
+.name-email{
+    display: flex;
+}
+.name-email input{
+    padding: 5px;
 }
 .gaap{
     padding-bottom: 40px;
+}
+.social-back{
+    background-color: rgb(29, 29, 29);
+    height: 260px;
+    width: 500px;
+}
+.social-back p{
+    color: white;
+    width: 450px;
+}
+.map{
+    background-color: antiquewhite;
+    text-align: center;
+}
+.map-back h1{
+    padding-bottom: 20px;
+    font-weight: bolder;
+}
+iframe{
+    background-color: rgb(29, 29, 29);
+    height: 400px;
+    padding: 30px;
+    margin-bottom: 120px;
 }
