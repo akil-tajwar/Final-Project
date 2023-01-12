@@ -40,6 +40,11 @@
 }
 .nav-elements{
     padding-top: 30px;
+    display: flex;
+}
+.nav-options ul{
+    display: flex;
+    list-style: none;
 }
 
 
